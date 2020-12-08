@@ -1,0 +1,641 @@
+<html>
+	<head>
+		<title>Home</title>
+		<!BOOTSTRAP-LINKS>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		
+		<!GOOGLE-FONTS-LINK>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		
+		<!FONT-AWESOME-ICON-LINK>
+		<script src="https://kit.fontawesome.com/8f015284da.js" crossorigin="anonymous"></script>
+		
+		<style>
+			
+			.logo{
+				width:3rem;
+				height: 3rem;
+				margin-right:0.5%;
+			}
+			
+			.menu{
+				font-size:1.5em;
+				padding-left:25px;
+				color:black;
+			}
+			
+			.container2{
+				background-color:#fff;
+				background-image:url(bg1.png);
+				
+				background-size:cover;
+				background-position:center;
+			}
+			
+			h4{
+				font-family:'Roboto', sans-serif;
+				font-size:3rem;
+				float:right;
+				margin-top:15%;
+			}
+			
+			.ask{
+				float:right;
+				margin-right:20%;
+				margin-top:2%;
+			}
+			
+			@media(max-width:1000px)
+			{
+				#robot{
+					float:right;
+				}
+				.ask{
+					margin-bottom:5%;
+				}
+			}
+			
+			#specs{
+				padding:100px;
+			}
+			
+			.video-box{
+				width:700px;
+				padding:30px;
+			}
+			
+			.video-box img{
+				width:100%;
+			}
+			
+			.video-box .play-btn{
+				font-size:50px;
+				width:100px;
+				height:100px;
+				position:absolute;
+				left:0px;
+				right:0px;
+				top:0px;
+				bottom:0px;
+				margin:auto;
+			}
+			
+			
+			
+			.book{
+				width:250px;
+				height:150px;
+				border-radius:50%;
+				 
+				margin-left:30px;
+				margin-right:30px;
+				margin-bottom:30px;
+				margin-top:20px;
+			}
+			
+			p{
+				font-family:'Roboto', sans-serif;
+				font-size:3rem;
+				margin-top:2em;
+				margin-left:3%;
+			}
+			
+			.fa-globe{
+				color:#0e49b5;
+				margin-top:10px;
+				margin-left:5%;
+			}
+			
+			.fa-video-camera{
+				color:#0e49b5;
+				margin-top:10px;
+				margin-left:6%;
+			}
+			
+			h6{
+				margin-left:20%;
+			}
+			
+			.query1{
+				width:100%;
+				height:600px;
+				margin-top:5%;
+			}
+			
+			.carousel-inner > .item{
+				width:400;
+				height:400;
+			}
+			
+			.live{
+				padding:40px;
+			}
+			
+			.clear{
+				margin:5%;
+			}
+			
+			.fa-graduation-cap{
+				color:#0e49b5;
+				margin-top:10px;
+				
+			}
+			
+			.fa-desktop{
+				color:#0e49b5;
+				margin-top:10px;
+				margin-left:3%;
+			}
+			
+			#angela{
+				background-color:#fff;
+				background-image:url(bg1.png);
+				
+				background-size:cover;
+				background-position:center;
+			}
+			
+			.appa{
+				width:500px;
+				height:300px;
+				padding:20px;
+			}
+			
+			#jenise{
+				background-color:#fff;
+				background-image:url(bg1.png);
+				
+				background-size:cover;
+				background-position:center;
+			}
+			
+			h5{
+				margin-top:3%;
+			}
+			
+			#subject{
+				padding:50px;
+			}
+			
+			
+			
+			.maths{
+				width:200px;
+				height:100px;
+			}
+			
+			.shadow{
+				padding:20px;
+			}
+			
+			.first{
+				width:200px;
+				height:200px;
+				border-radius:50%;
+			}
+			
+			.dada{
+				margin-top:4%;
+				margin-bottom:2%;
+			}
+			
+			#student{
+				background-color:#fff;
+				background-image:url(bg1.png);
+				
+				background-size:cover;
+				background-position:center;
+				padding:80px;
+			}
+			.car{
+				margin-top:3.5%;
+			}
+			
+			.blue{
+				background-color:#0e49b5
+			}	
+		</style>
+	</head>
+<body>
+	<section id="title">
+		<div class="container-fluid">
+			<div class="navbar navbar-expand-lg navbar-light">
+				<img class="logo" src="logo.png" alt="logo">
+				<a class="navbar-brand edulogo" href=""><b><font size="40px" color="0e49b5">Coursify</font></b></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+   
+				<ul class="navbar-nav ml-auto heading">
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Live Classes</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Video Library</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Course</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Book</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Board</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Exam</b></a>
+					</li>
+				</ul>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="main">
+		<div class="container2">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="row">
+						<div class="col-lg-12">
+							<h4 id="robot">Clarify your <font color="0e49b5">doubts</font><br>
+							in your language.</h4>
+						</div>
+						<div class="col-lg-12">
+							<button class="btn btn-danger ask">Ask your doubt now</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 video-box">
+					<a href="javascript:void();">
+					<img class="screen" src="screen.png" alt="screen">
+					<div class="play-btn">
+						<button class="btn btn-light"><i class="fa fa-play-circle-o fa-4x" aria-hidden="true"></i></button>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="specs">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<center><img src="pustak.jpg" alt="book" class="book"></center>
+				<center><font size="5px"><b><font color="0e49b5">40,000+</font> doubts cleared</b></font></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<center><img src="scholarship1.png" alt="state" class="book"></center>
+				<center><font size="5px"><b><font color="0e49b5">20+</font> State Boards</b></font></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<center><img src="videolecture.jpg" alt="video-lecture" class="book"></center>
+				<center><font size="5px"><b><font color="0e49b5">1,000,000+</font> Video lectures</b></font></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<center><img src="blackboard.jpg" alt="covered" class="book"></center>
+				<center><font size="5px"><b><font color="0e49b5">5,000+</font> books covered</b></font></center>
+			</div>
+		</div>
+	</section>
+	<section id="doubt">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>Solve your doubts <font color="0e49b5">faster.</font></p>
+				<i class="fa fa-globe fa-4x" aria-hidden="true"></i> <font size="5px" style="margin-left:3%;"> <b>Accessible everywhere</b></font><br>
+						<h6>Acess to quality education anytime,<br>
+						anywhere.</h6>
+				<i class="fa fa-video-camera fa-3x" aria-hidden="true"></i> <font size="5px" style="margin-left:3%;"><b> 1 Million+ videos</b></font><br>
+						<h6>Unlimited access to video solution.</h6>
+			</div>
+			<div class="col-sm-6">
+				<img src="query.png" alt="img" class="query1">
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="doubt.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Have a Doubt?</h5>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="yquestion.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ask a question<br> 
+				OR<br>
+		upload an image</h5>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="solution.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Get your Solution!</h5>
+        
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<center><button class="btn btn-danger clear">Clarify your doubts now!</button></center>
+	</section>
+	<section id="live">
+		<center><p><font color="0e49b5">LIVE  </font>  Classes</p></center><br>
+		<div class="row">
+			<div class="col-lg-6 video-box">
+				<a href="javascript:void();">
+				<center><img src="Abhi.png" alt="video" class="live"></center>
+				<div class="play-btn">
+						<button class="btn btn-light"><i class="fa fa-play-circle-o fa-4x" aria-hidden="true"></i></button>
+				</div>
+				</a>
+			</div>
+			<div class="col-lg-6">
+				<center><i class="fa fa-globe fa-4x" aria-hidden="true"></i> <font size="5px" style="margin-left:3%;"> <b>Accessible everywhere</b></font><br>
+						<h6>Acess to quality education anytime,<br>
+						anywhere.</h6></center>
+				<center><i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i> <font size="5px" style="margin-left:3%;"><b>Expert teachers</b></font><br>
+						<h6>Unlimited access to video solution.</h6></center>
+				<center><i class="fa fa-desktop fa-4x" aria-hidden="true"></i><font size="5px" style="margin-left:3%;"><b> Interactive Sessions</b></font><br>
+						<h6>Small groups for maximum-<br>
+						student teacher interaction.</h6></center>
+			</div>
+		</div>
+		<center><p><font color="0e49b5">FIRST CLASS FREE! </font></p></center>
+		<center><button class="btn btn-danger clear">Book a class Now!</button></center>
+	</section>
+	<section id="angela">
+		<center><p><font color="0e49b5">JEE</font>  Mains & Advanced preparation</p></center><br>
+		<div class="row">
+			<div class="col-lg-6">
+				<center><img src="first.jpg" alt="teacher" class="appa"></center>
+			</div>
+			<div class="col-lg-6">
+				<center><font size="5px" color="0e49b5" style="margin-left:3%,margin-top:3%;"> <b>Micro concept videos</b></font><br>
+					<h5>Find multilingual Video<br>
+						explainations important and<br>
+						frequently confused<br>
+						concepts from every subject.</h5></center>
+			</div>
+		</div>
+		<center><button class="btn btn-danger clear">Prepare for JEE now!</button></center>
+	</section>
+	<section id="jenise">
+		<br><br><center><p><font color="0e49b5">NEET</font>  preparation</p></center><br>
+		<div class="row">
+			<div class="col-lg-6">
+				<center><img src="second.jpg" alt="teacher" class="appa"></center>
+			</div>
+			<div class="col-lg-6">
+				<center><font size="5px" color="0e49b5" style="margin-left:3%,margin-top:3%;"> <b>Micro concept videos</b></font><br>
+					<h5>Find multilingual Video<br>
+						explainations important and<br>
+						frequently confused<br>
+						concepts from every subject.</h5></center>
+			</div>
+		</div>
+		<center><button class="btn btn-danger clear">Prepare for NEET now!</button></center>
+	</section>
+	<section id="subject">
+		<center><p><font color="0e49b5">Explore the Subject with us!</font></p></center><br>
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="maths.png" alt="maths" class="maths"></center>
+					<center><h3><font color="0e49b5">Maths</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="physics.png" alt="maths" class="maths"></center>
+					<center><h3><font color="0e49b5">Physics</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="chemistry.png" alt="maths" class="maths"></center>
+					<center><h3><font color="0e49b5">chemistry</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="biology.jpg" alt="maths" class="maths"></center>
+					<center><h3><font color="0e49b5">biology</font></h3></center>
+			</div>
+		</div>
+		<a href=""><font size="5em" color="red" style="float:right;">View all!</font></a>
+	</section>
+	<section id="free">
+		<center><p><font color="0e49b5">Free access</font> to 5000+ books</p>
+		<h7>Get access to virtual library of 5000+ textbooks<br>
+		and reference books of various stateboards and competitive exams</h7></center><br>
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="hcverma.jpg" alt="hcverma" class="maths"></center>
+					<center><h3><font color="0e49b5">HC Verma</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="kcsinha.jpg" alt="kcsinha" class="maths"></center>
+					<center><h3><font color="0e49b5">KC Sinha</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="errorless.jpg" alt="errorless" class="maths"></center>
+					<center><h3><font color="0e49b5">Errorless</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="tata.png" alt="tata" class="maths"></center>
+					<center><h3><font color="0e49b5">Tata McGraw Hill</font></h3></center>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="rdsharma.png" alt="rdsharma" class="maths"></center>
+					<center><h3><font color="0e49b5">RD Sharma</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="pradeep.jpg" alt="pradeep" class="maths"></center>
+					<center><h3><font color="0e49b5">Pradeep's</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="slarora.png" alt="slarora" class="maths"></center>
+					<center><h3><font color="0e49b5">SL Arora</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="maths.png" alt="maths" class="maths"></center>
+					<center><h3><font color="0e49b5">Maths</font></h3></center>
+			</div>
+		</div>	
+	</section>
+	
+	<section id="free">
+		<center><p><font color="0e49b5">State Boards</font></p>
+		Learn your board syllabus from best teachers with us</center><br>
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="maharashtra.png" alt="maharashtra" class="maths"></center>
+					<center><h3><font color="0e49b5">Maharashtra</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="punjab.jpg" alt="punjab" class="maths"></center>
+					<center><h3><font color="0e49b5">Punjab</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="kerala.jpg" alt="kerala" class="maths"></center>
+					<center><h3><font color="0e49b5">Kerala</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="madhyapradesh.jpg" alt="madhyapradesh" class="maths"></center>
+					<center><h3><font color="0e49b5">Madhyapradesh</font></h3></center>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="rajashthan.png" alt="rajashthan" class="maths"></center>
+					<center><h3><font color="0e49b5">Rajashthan</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="gujarat.jpg" alt="gujarat" class="maths"></center>
+					<center><h3><font color="0e49b5">Gujarat</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="andhrapradesh.jpg" alt="andhra pradesh" class="maths"></center>
+					<center><h3><font color="0e49b5">Andhra Pradesh</font></h3></center>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 shadow">
+				<center><img src="tamilnadu.jpg" alt="tamilnadu" class="maths"></center>
+					<center><h3><font color="0e49b5">Tamilnadu</font></h3></center>
+			</div>
+		</div>	
+	</section>
+	
+	<section id="free">
+		<center><p><b>Meet our expert Tutors</b></p></center><br>
+		<div class="row">
+			<div class="col-lg-3">
+				<center><img src="firstteacher.jpg" alt="first" class="first"></center>
+			</div>
+			<div class="col-lg-3 shadow">
+				<center><h1><font color="0e49b5">Shivani arora</font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+			</div>
+			<div class="col-lg-3">
+				<center><img src="secondteacher.jpg" alt="first" class="first"></center>
+			</div>
+			<div class="col-lg-3 shadow">
+				<center><h1><font color="0e49b5">Shilpa Dange</font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+			</div>
+		</div>	
+		
+		<div class="row dada">
+			<div class="col-lg-3">
+				<center><img src="thirdteacher.jpg" alt="first" class="first"></center>
+			</div>
+			<div class="col-lg-3 shadow">
+				<center><h1><font color="0e49b5">Angela Yu</font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+			</div>
+			<div class="col-lg-3">
+				<center><img src="fourthteacher.jpg" alt="first" class="first"></center>
+			</div>
+			<div class="col-lg-3 shadow">
+				<center><h1><font color="0e49b5">Sushila Kotwal</font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+			</div>
+		</div>	
+	</section>
+	
+	<section id="student">
+		<center><p><b>See what our students have to say</b></p></center><br>
+		<div class="row">
+			<div class="col-lg-6 video-box">
+				<a href="javascript:void();">
+				<img class="screen" src="screen.png" alt="screen">
+				<div class="play-btn">
+					<button class="btn btn-light"><i class="fa fa-play-circle-o fa-4x" aria-hidden="true"></i></button>
+				</div>
+				</a>
+			</div>
+			
+			<div class="col-lg-6 car">
+				<center>		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="firststudent.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+				<center><h1><font color="0e49b5">Sakshi Kadam </font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="secondstudent.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+				<center><h1><font color="0e49b5">Anupama Nikam</font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="thirdstudent.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+				<center><h1><font color="0e49b5">Abhishek Jadhav</font></h1>
+				Lorem Ipsum is simply <br>dummy text of the printing<br> and typesetting industry.</center><br>
+        
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div></center>
+			</div>
+			
+		</div>
+	</section>
+	<section id="footer">
+		<center><button class="btn btn-danger clear">Download the App for free!</button></center><br>
+		<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"> @ 2020 Copyright:
+    <a href="https://coursify.com/"><font color="white" size="5">Coursify.com</font></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	</section>
+</body>
+</html>
